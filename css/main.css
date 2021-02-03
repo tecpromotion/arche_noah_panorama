@@ -6,9 +6,6 @@ html, body {
     background-color: #000;
     font-family: Arial, Verdana, sans-serif;
 }
-h3 {
-    color: white;
-}
 
 .flex-container {
     padding: 0;
@@ -23,6 +20,7 @@ h3 {
     display: -webkit-flex;
     display: flex;
     float: left;
+    flex-flow: row wrap;
 }
 
 .flex-start {
@@ -31,5 +29,9 @@ h3 {
 }
 
 .flex-item {
-    width: auto;
+    background: tomato;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
