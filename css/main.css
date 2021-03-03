@@ -34,3 +34,11 @@ html, body {
     color: white;
     text-align: center;
 }
+
+pre {
+    margin: 0;
+    padding: 10px;
+    background: beige;
+    border: 2px dashed #1CD939;
+    color: black;
+}

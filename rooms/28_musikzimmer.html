@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    <title>28_musikzimmer</title>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <script src="../js/three.min.js"></script>
+    <script src="../js/panolens.min.js"></script>
+    <script>
+
+      const panorama = new PANOLENS.ImagePanorama( '../images/28_musikzimmer.jpg' );
+      const viewer = new PANOLENS.Viewer();
+      viewer.add( panorama );
+
+    </script>
+  </body>
+</html>
